@@ -18,10 +18,10 @@ public class ClasseEObjetoResposta1 {
 		System.out.println("estado da instância de strObjeto2 = " + strObjeto2);
 
 		// todo 1 - altere para criar uma nova String
-		String strObjeto3 = ;
+//		String strObjeto3 = ;
 
 		// todo 2 - altere para mostrar o estado da instância de String nova
-		System.out.println("estado da instância de strObjeto3 = ");
+//		System.out.println("estado da instância de strObjeto3 = ");
 
 	}
 

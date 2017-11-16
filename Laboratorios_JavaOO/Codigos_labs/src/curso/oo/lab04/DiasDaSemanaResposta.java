@@ -5,7 +5,7 @@ public class DiasDaSemanaResposta {
 	public static void main(String[] args) {
 
         // todo 1 - Crie um array Bi-Dimencional para caber o total de dicionario e para cada linha tenha duas colunas, uma para português e outra para ingles
-		String[][] dicionario = new String[][];
+		String[][] dicionario =  new String[10][5];
 
 		// todo 2 - inicializa o array dicionario para cada linha de dia
         // Lembrando que deve conter em cada linha, o correspondente em português e ingles

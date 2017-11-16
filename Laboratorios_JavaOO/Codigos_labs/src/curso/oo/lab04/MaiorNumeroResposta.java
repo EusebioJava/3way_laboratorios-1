@@ -1,5 +1,5 @@
 package curso.oo.lab04;
-
+//Programa para determinar o menor numero
 import javax.swing.JOptionPane;
 
 public class MaiorNumeroResposta {
@@ -9,22 +9,23 @@ public class MaiorNumeroResposta {
 		int[] num = new int[10];
 		int contador;
 		// todo 1 - altere o nome para facilitar na leitura para menorNumero - Utilize o refactor da IDE (Pe√ßa ajuda)
-		int max = 0;
+		int menorNumero = 0;
 		int numerostotal = 3;
 
-		// Pede ao usu√°rio para digitar n√∫meros
+		// Pede ao usu·rio para digitar n˙meros
+		
 		for (contador = 0; contador < numerostotal; contador++) {
 
-			num[contador] = Integer.parseInt(JOptionPane.showInputDialog("Entre com n√∫meros at√© " + numerostotal + " no total"));
+			num[contador] = Integer.parseInt(JOptionPane.showInputDialog("Entre com os n˙meros atÈ: " + numerostotal + " no total"));
 
             // todo 2 - dica: verifique esta condi√ß√£o
-			if (( contador == 0 ) || ( num[contador] > max ))
-				max = num[contador];
+			if (( contador == 0 ) || ( num[contador] < menorNumero ))
+				menorNumero = num[contador];
 		}
 
         // todo 3 - Altere para mostrar o novo resultado
-        // Objetivo: Mostrar o menor n√∫mero digitado
-		JOptionPane.showMessageDialog(null, "O maior n√∫mero √© " + max);
+        // Objetivo: Mostrar o menor numero digitado
+		JOptionPane.showMessageDialog(null, "O Menor n˙mero È: " + menorNumero);
 	}
 
 }

@@ -6,7 +6,7 @@ public class MetodosInstanciaEEstatico {
 
 		// Cria duas instâncias da classe String
 		String strInst1 = new String("Sou uma instância de objeto da classe String");
-		String strInst2 = "Viva com paixão!";
+		String strInst2 = "Viva com paix�o!";
 
 		// Invoca o método de instância charAt()
 		// através das instâncias da classe String
